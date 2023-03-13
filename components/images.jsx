@@ -74,7 +74,7 @@ export default function Images() {
       {imgs.map((img, i) => (
         <button key={i} onClick={() => handleBetClick(i)}>
           <img
-            src={`/Images/${img}`}
+            src={`/images/${img}`}
             className={`w-full h-full   ${
               i === index
                 ? "border-white border-4 border-dashed rounded-xl"
