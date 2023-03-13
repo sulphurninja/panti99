@@ -52,7 +52,7 @@ function Winnings() {
         <div className="w-full h-full object-cover ">
           <img
             className="h-full w-full rounded-3xl p-2 absolute "
-            src={`/Images/${result === 0 ? "0.png" : result + ".png"}`}
+            src={`/images/${result === 0 ? "0.png" : result + ".png"}`}
             alt={`Winning Image for ${result}`}
           />
           <motion.div
